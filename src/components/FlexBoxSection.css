@@ -7,13 +7,14 @@
   
   .flex-container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column; /* Display items vertically on small screens */
+    align-items: center; /* Center items horizontally on small screens */
     margin-bottom: 40px;
   }
   
   .skill-card {
-    width: calc(33.33% - 20px); /* Adjust width as needed */
+    width: 100%; /* Full width on small screens */
+    max-width: 350px; /* Limit maximum width on larger screens */
     padding: 20px;
     text-align: center;
     background-color: #fff;
@@ -47,5 +48,19 @@
     font-size: 16px;
     line-height: 1.5;
     color: #555;
+  }
+  
+  /* Media query for screens with max-width of 600px (small screens) */
+  @media (max-width: 600px) {
+    .flex-container {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+  
+    .skill-card {
+      width: calc(70% - 20px);
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
   
