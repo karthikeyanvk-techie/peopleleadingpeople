@@ -1,0 +1,39 @@
+/* Add these styles to your existing CSS file or create a new one */
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .header-title {
+    font-size: 1.5rem;
+    margin-left: 20px;
+  }
+  
+  .header-timer {
+    font-size: 1rem;
+    margin-right: 20px;
+  }
+  
+  /* Add more styles for other sections and components */
+  
+  .content {
+    /* Your content styles here */
+    margin-top: 80px; /* Adjust the value based on your header height */
+  }
+  
+  .play-button {
+    /* Your play button styles here */
+    /* For example, you can position it in the center of the screen */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

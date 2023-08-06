@@ -1,0 +1,39 @@
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    background-color: #f8f8f8;
+    background-image: linear-gradient(135deg, #f6d365 0%, #fda085 100%); /* Gradient background */
+    padding: 40px 0;
+  }
+  
+  .carousel-content {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+  
+  .carousel-header-left {
+    margin-bottom: 10px;
+    color: #ff8e53;
+  }
+  
+  .carousel-content-text {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .quote {
+    margin-top: 40px;
+    font-weight: bold;
+    color: #333;
+  }
+  
