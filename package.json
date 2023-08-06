@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://github.com/karthikeyanvk-techie/peopleleadingpeople",
-
+  "homepage": "https://karthikeyanvk-techie.github.io/peopleleadingpeople",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
