@@ -41,7 +41,7 @@ const GridSection: React.FC<GridSectionProps> = () => {
   return (
     <Container>
       <Typography variant="h4" className="section-header">
-        Professional Achievements & Personal Achievements
+        Professional & Personal Achievements
       </Typography>
       <br />
       <Grid container spacing={3} className="grid-container">

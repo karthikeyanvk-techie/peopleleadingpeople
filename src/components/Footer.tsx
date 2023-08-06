@@ -13,7 +13,7 @@ const Footer: React.FC<FooterProps> = () => {
         top: 'auto',
         bottom: 0,
         background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
-        marginTop: 'auto', // Add this line
+        marginTop: 'auto',
       }}
     >
       <Toolbar
