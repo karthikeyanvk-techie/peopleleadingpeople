@@ -9,27 +9,27 @@ interface FlexBoxSectionProps {
 const skills = [
   {
     title: 'Love for Learning and Quick Learner',
-    description: 'Showcase your passion for learning and adaptability to new roles.',
+    description: 'I always showcase my passion for learning and adaptability to new roles.',
     icon: '📚', // You can replace this with an appropriate icon or image
   },
   {
     title: 'Positive Attitude',
-    description: 'Highlight your optimistic and can-do attitude in various situations.',
+    description: 'I am highly optimistic and can-do attitude in various situations.',
     icon: '😄', // You can replace this with an appropriate icon or image
   },
   {
     title: 'Collaboration Skills',
-    description: 'Emphasize your ability to work effectively with others and contribute to team success.',
+    description: 'My ability to work effectively with others and contribute to team success.',
     icon: '🤝', // You can replace this with an appropriate icon or image
   },
   {
     title: 'Communication Skills',
-    description: 'Illustrate your proficiency in conveying ideas clearly and engagingly.',
+    description: 'I have high proficiency in conveying ideas clearly and engagingly.',
     icon: '💬', // You can replace this with an appropriate icon or image
   },
   {
     title: 'Adaptability to Different Roles',
-    description: 'Showcase your versatility in taking on diverse responsibilities.',
+    description: 'I am versatile in taking on diverse responsibilities.',
     icon: '🎩', // You can replace this with an appropriate icon or image
   },
 ];
